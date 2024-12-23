@@ -1,0 +1,58 @@
+body{
+    background-color: mediumpurple;
+    margin: auto;
+    border-style: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blanchedalmond;
+
+}
+
+.card{
+    background-color: rgb(111, 145, 173);
+    border-radius: 10px;
+    box-shadow: 1px;
+    border: 2px;
+    max-width: 400px;
+}
+
+h1{
+    text-align: center;
+    background-color: chartreuse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    color: rgb(20, 4, 4);
+}
+
+.clock{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.time-element{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin: 0px 10px;
+
+}
+
+.colum-element{
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+    margin: 0px 10px;
+}
+
